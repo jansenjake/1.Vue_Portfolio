@@ -28,9 +28,11 @@ import Footer from '../src/components/footer.vue'
 
 nav {
   padding: 30px;
-  background-color: skyblue;
-  
+  background-color: rgb(206, 191, 191);
 }
+
+
+
 
 nav a {
   font-weight: bold;
@@ -51,7 +53,7 @@ nav a:hover {
 }
 
 body{
-  background-image: linear-gradient(to right,rgb(153, 0, 17), rgb(252, 246, 245), pink );
+  background-image: linear-gradient(to right,rgb(153, 0, 17), pink, blue );
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;

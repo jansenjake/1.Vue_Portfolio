@@ -99,6 +99,8 @@
 div .card{
     width: 450px;
     margin-left: 10rem;
+    border-radius: 10px;
+    
 }
 
 

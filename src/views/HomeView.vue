@@ -1,5 +1,5 @@
 <template>
-  <h1 class="HomeHead">Portfolio Of Jake Jansen</h1>
+  <h1 class="HomeHead">Portfolio <h1 class="of">Of</h1> <h1 class="name">Jake Jansen</h1></h1>
   <div class="home">
 
 
@@ -25,12 +25,9 @@ export default {
 
 .HomeHead{
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: top-down 3s ease-out;
+  animation: top-down 2s ease-out;
   font-size: 3rem;
+  color:black;
 }
 
 @keyframes top-down {
@@ -46,6 +43,36 @@ export default {
     color: black;
   }
   
+}
+
+.of {
+  font-size: 3rem;
+  animation: of 3s ease-in-out;
+}
+
+@keyframes of {
+  0%{
+    transform: translateX(-100%)
+    
+  }
+  100%{
+    transform: translateX(0%)
+  }
+}
+
+.name{
+  font-size: 4rem;
+  color: black;
+  animation: down-up 3.5s ease-in-out
+}
+
+@keyframes down-up{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
 }
 
 

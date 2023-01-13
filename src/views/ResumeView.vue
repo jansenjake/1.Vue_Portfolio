@@ -21,11 +21,7 @@
 <h4>Life Choices Academy. Starting date was September to present. </h4>
 <img class="LCA" src="../assets/LIFE-CHOICES-ICON-ON-GREEN.png">
 
-<!-- <h4>At Life Choices Academy i have learnt the following development languages and a framework.</h4>
-<img class="lang-logos" src="../assets/js_html_css.png">
-<h4>This is the framework I have been taught.</h4>
-<img class="frame-logo" src="../assets/logo.png">
- -->
+
 
 
 
