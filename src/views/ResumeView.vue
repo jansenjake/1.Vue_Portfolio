@@ -29,6 +29,23 @@
 
 <script>
 
+export default{
+  name: 'ResumeView',
+    data(){
+      return{
+        ResumeView:[
+            {
+                name:'Blades & Triggers',
+                period: '2 months',
+                description: 'My first casual job since finishing high school.',
+                image: 'bladesandtriggers.jpg'
+
+                
+            }
+        ]
+      }
+    }
+}
 
 
 </script>
