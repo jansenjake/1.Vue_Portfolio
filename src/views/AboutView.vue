@@ -11,6 +11,7 @@
 
 <script>
 
+
 </script>
 
 
@@ -19,7 +20,10 @@
 .MyImg{
   width: 350px;
   border-radius: 10px;
+  margin-bottom: 35px;
 }
+
+
 
 h1{
   margin-top: 25px;
